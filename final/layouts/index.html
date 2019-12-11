@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href = "../assets/css/style.css">
+    <link rel='stylesheet' href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" style="background-color:#000000">
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" id="nav1" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" id="nav2" href="#about">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link" id="nav3" href="#comment">Comment</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>My Hobbies</h2>
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <h4>Video Games</h4>
+                    <img src = "../assets/images/games.jpg" alt = "Controller image" width="500" height="300" class="responsive">
+                    <p>In my spare time I love to play video games. I have played almost every console there is and I love each of them.
+                        I am a big fan of the zelda series and have been playing it since the N64 days. Another series I have been playing for awhile now is COD.
+                        I have been playing ever since COD4 and I have enjoyed it very much. I find myself playing the new Modern Warfare quite often when 
+                        I get a chance to. 
+                    </p>
+
+                </div>
+                <div class="col-sm-6 col-12">
+                    <h4>Bowling</h4>
+                    <img src="../assets/images/bowlingAlley.jpg" alt="Orofino Bowling Alley" width="500" height="300"class="responsive">
+                    <p>Another thing I have come to love over the years is bowling. I don't bowl that often, but when I do it is very enjoyable.
+                        I loved it so much that I ended up getting a custom bowling ball which my fingers fit into perfectly. My highest score ever was 215 when I was bowling daily.
+                        Nowadays I bowl anywhere from 130-180, it just depends on the day. I would love to get more involved like I used to, but I just don't have the time these days.
+                    </p>
+                </div>
+                <div class="col-sm-12 col-12">
+                    <h4>Coding!</h4>
+                    <img src="../assets/images/coding.jpg" alt="coding image" class="responsive" id = "codingImage">
+                    <p>This one should be obvious. Why else would I be going to school for this if I didn't enjoy it? 
+                        I like to experiment around and learn new things. I am constantly gaining coding knowledge and it makes me excited for what the future may hold.
+                        I have progressed alot over the last few years and I am expecting to improve even more. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id = "comment">
+            <h4>Contact Form</h4>
+            <p>As I said I love to play video games, and I am always looking for more people to play with. I would appreciate if you filled out the form below. I will get you added as soon as I can on whichever platform you decide.</p>
+            <form action="https://formspree.io/xaynznbz" method="POST">
+                
+                <label>Name(required)</label>
+                <br>
+                <input type="text" name="name" required class="responsive">
+                <br>
+                <label>UserName(Gamertag/PSN)</label>
+                <br>
+                <input type="text" name="username" required class="responsive">
+                <br>
+                <label>Email(required)</label>
+                <br>
+                <input type="email" name="email" required class="responsive">
+                <br>
+                <label>platform(PS4/PC/Xbox)</label>
+                <br>
+                <input type="text" name="console" required class="responsive"> 
+                <br>
+                <input type="submit" value="Send" target="_blank">
+
+              </form>
+            </section>
+    </main>
+    <footer>
+        <p>Property of Trevor Carver Inc.&copy;</p>
+    </footer>
+    
+</body>
+</html>

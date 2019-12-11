@@ -1,0 +1,56 @@
+#comment{
+    border: 2px solid black;
+    text-align: center;
+}
+form label{
+    text-align: center;
+}
+
+body{
+    border: 2px solid black;
+}
+#commentBox{
+    height: 100px;
+}
+#nav1, #nav2, #nav3{
+    margin-left: 8em;
+    font-size: 150%;
+}
+
+html{
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgb(238, 227, 212);
+    
+}
+h2{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 1500px){
+    .responsive{
+        max-width: 100%;
+        height: auto;
+    }
+}
+footer{
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-color: black;
+}
+footer p{
+    color: white;
+}
+#codingImage{
+    width: 100%;
+    height: 400px;
+}
+nav{
+    max-width: 100%;
+    height: 10em;
+}
